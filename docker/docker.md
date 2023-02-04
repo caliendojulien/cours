@@ -14,11 +14,11 @@
 Docker est une plateforme logicielle de conteneurs.
 
 Elle permet de compartimenter chaque élément de son application à l’intérieur « d’une boite » qui est auto suffisante et qui peut être facilement déployée et utilisée.
-- Docker permet la création, le déploiement et le lancement d’une application dans un contexte complètement maitrisé et indépendant du système d’exploitation ou du type de machines hôte.
+- Docker permet la création, le déploiement et le lancement d’une application dans un contexte complètement maitrisé et indépendant du système d’exploitation ou du type de la machine hôte.
 - Docker permet un gain de temps et d’efforts phénoménal pendant les phases de développement, de tests, de déploiement et de production.
 - Docker permet le partage et la distribution d’une application et ses dépendances. Git et Docker Hub permettent de collaborer avec plusieurs développeurs facilement.
-- Docker permet de s’adapter à n’importe quelle situation critique comme l’arrêt inopiné ou la surcharge réseau ou applicative en démarrant des conteneurs de manière automatisé et/ou manuelle.
-- Docker est présent sur quasiment toutes les fiches de poste de développeur.
+- Docker permet de s’adapter à n’importe quelle situation critique comme l’arrêt inopiné ou la surcharge réseau ou applicative en démarrant des conteneurs de manière automatisée et/ou manuelle.
+- Docker est présent sur quasiment toutes les fiches de poste des développeurs.
 - Docker est français
 
 ## Installation
@@ -32,7 +32,7 @@ Elle permet de compartimenter chaque élément de son application à l’intéri
 ![dockertelechargement.png](img/dockertelechargement.png)
 </div>
 
-L’installation de docker permet l’utilisation d’une interface graphique et/ou en ligne de commande.
+L’installation de docker permet l’utilisation d’une interface graphique et/ou de lancer des lignes de commande.
 
 <div style="text-align: center;">
 
@@ -51,7 +51,7 @@ Pour fonctionner, un conteneur docker a besoin d’une image et d’un volume.
 Un volume, c’est l’équivalent docker d’un disque dur.
 Une image, c’est une représentation statique d’une application.
 Le conteneur va s’appuyer sur une image pour créer une instance. On peut donc avoir plusieurs instances de la même image.
-Des développeurs très sympas ont créé un sanctuaire dans lequel se trouve un nombre impressionnant d’images facilement téléchargeable et utilisable : le dockerHub.
+Des développeurs très sympas ont créé un sanctuaire dans lequel se trouve un nombre impressionnant d’images facilement téléchargeables et utilisables : le dockerHub.
 
 <div style="text-align: center;">
 
@@ -90,13 +90,13 @@ En résumé :
 
 ## Docker compose
 
-Bien entendu, on ne va pas s'amuser à retenir toutes les lignes de commandes de tous les conteneurs que l'on souhaite utiliser dans notre application web.
+Bien entendu, on ne va pas s'amuser à retenir toutes les lignes de commande de tous les conteneurs que l'on souhaite utiliser dans notre application web.
 
 C'est ici qu'intervient *docker compose*.
 
-Le principe, ici, c'est de créer un fichier un peu particulier qui va recenser l'ensemble des conteneurs que l'on souhaite utiliser.
+Le principe, ici, est de créer un fichier un peu particulier qui va recenser l'ensemble des conteneurs que l'on souhaite utiliser.
 
-Tu pourras, ensuite, selectionner tout ou bien l'ensemble des conteneurs pour les démarrer automatiquement. Et tout ça, graphiquement, directement dans ton IDE.
+Tu pourras, ensuite, selectionner certains ou bien l'ensemble des conteneurs pour les démarrer automatiquement. Et tout ça, graphiquement, directement dans ton IDE.
 
 ## TODO :
 - [ ] Finir le docker compose
