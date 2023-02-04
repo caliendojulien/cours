@@ -97,3 +97,7 @@ Le principe, ici, c'est de créer un fichier un peu particulier qui va recenser 
 
 Tu pourras, ensuite, selectionner tout ou bien l'ensemble des conteneurs pour les démarrer automatiquement. Et tout ça, graphiquement, directement dans ton IDE.
 
+## TODO :
+- [ ] Finir le docker compose
+- [ ] Ajouter des emojis
+- [ ] Ajouter des captures d'écrans
