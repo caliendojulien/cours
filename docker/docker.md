@@ -77,7 +77,7 @@ Puis, nous allons créer un conteneur à partir de l'image MySQL en utilisant qu
 - -d demande au conteneur de se lancer en tant que _daemon_.
 - -p permet de dire au conteneur que mon port 3306 est le reflet exact de son port 3306
 
-
+En résumé :
 
     docker run --name mysql -e MYSQL_ROOT_PASSWORD=mdpMySQL -d -p 3306:3306 mysql
 
