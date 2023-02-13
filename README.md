@@ -13,6 +13,7 @@ De plus en plus, je constate de nombreuses lacunes chez les bébés développeur
 ## Feuille de route
 
 - [Docker](docker/docker.md)
+- [Git](git/git.md)
 
 
 ## Contributions
